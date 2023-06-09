@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-size: 20pt;
+  display: flex;
+  flex-direction: column;
+  background: url("https://wallpaperaccess.com/full/1105644.jpg") center fixed no-repeat;
+  background-size: cover;
+}
+
+.container {
+  flex: 1 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid;
+}
+
+.footer {
+  flex: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+#copyright {
+  text-align: center;
+}
